@@ -50,6 +50,17 @@ main{
   padding: 15px 14px;
   margin-top: 0;
 }
+footer{
+  background-color: #06D6A0;
+  height: 50px;
+  padding: 0 20px;
+  line-height: 50px;
+  text-align: right;
+  margin: 0;
+}
+footer p{
+  margin: 0;
+}
 .center{
   max-width: 900px;
   margin: auto;
@@ -72,15 +83,26 @@ main{
 }
 .middle{
   background-color: lightgrey;
+  padding:20px;
+  overflow: auto;
 }
 .bottom{
   position: relative;
   display: inline-block;
   background-color: #26547C;
+  padding: 15px;
+}
+.middle p{
+  width: 95%;
+  margin: auto;
 }
 .bottom h3{
   text-align: center;
   color: pink;
   width: 33%;
   float: left;
+  font-size: 24px;
+}
+.bottom p{
+  color:white;
 }
