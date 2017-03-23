@@ -50,7 +50,6 @@ main{
   padding: 15px 14px;
   margin-top: 0;
 }
-
 .center{
   max-width: 900px;
   margin: auto;
@@ -64,4 +63,24 @@ main{
   float: right;
   text-align: center;
   color: white;
+}
+.cards img{
+  width: 31%;
+  border: 3px solid black;
+  margin: 1%;
+  float: left;
+}
+.middle{
+  background-color: lightgrey;
+}
+.bottom{
+  position: relative;
+  display: inline-block;
+  background-color: #26547C;
+}
+.bottom h3{
+  text-align: center;
+  color: pink;
+  width: 33%;
+  float: left;
 }
